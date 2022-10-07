@@ -1,0 +1,31 @@
+.body{
+    background-image: url('../practica/src/deadpool-wolverine.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    
+
+}
+img{
+    border-radius: 30%;
+}
+
+
+h1,h2,p{
+    color:aqua;
+    font-weight: 700;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    margin:0 1rem ;
+}

@@ -1,0 +1,85 @@
+.body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* HEADER */
+.body__header__container{
+    background: #00AF1C;
+    font-size: 1.5rem;
+    width: 100%;
+}
+.header__container__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 5rem;
+}
+
+.header__nav__ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+    padding: 2rem;
+}
+/* MAIN */
+.body__main{
+    padding: 2rem;
+}
+
+.article__inicio__title{
+    color: #3B06D2;
+}
+.article__inicio__title, .article__servicios__title, .article__portafolio__title, .article__portafolio__title, .article__contacto__title{
+    text-transform: uppercase;
+}
+.article__inicio__description, .article__servicios__description, .article__portafolio__description, .article__portafolio__description, .article__contacto__description{
+    margin: 2rem 0;
+}
+.container__img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    /* justify-content: center; */
+}
+.container__img img{
+    min-width: 3rem;
+    margin-right: 10rem;
+}
+article{
+    padding-bottom: 2rem;
+}
+
+.article__contato_form{
+    display: flex;
+    flex-direction: column;
+}
+.contacto__form__nombre{
+    margin-bottom: 1rem;
+}
+.contacto__form__description{
+    margin-bottom: 1rem;
+}
+.contacto__form__btn{
+    width: 10vw;
+    height: 5vh;
+    border: 1px solid #22a900;
+    background-color: transparent;
+    color: #22a900;
+}
+
+
+/* FOOTER */
+.header__container__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
