@@ -57,11 +57,38 @@ a{
 article{
     padding-bottom: 2rem;
 }
-
 .article__contato_form{
     display: flex;
     flex-direction: column;
 }
+
+.article__servicios__ul li:nth-child(1){
+    color: red;
+}
+.article__servicios__ul li:nth-child(2){
+    color: blue;
+}
+.article__servicios__ul li:nth-child(3){
+    color:green;
+}
+.article__servicios__ul li:nth-child(4){
+    color: maroon;
+}
+
+
+.article__portafolio__ul li:nth-child(1){
+    color: rebeccapurple;
+}
+.article__portafolio__ul li:nth-child(2){
+    color: orange;
+}
+.article__portafolio__ul li:nth-child(3){
+    color: olive;
+}
+.article__portafolio__ul li:nth-child(4){
+    color: blueviolet;
+}
+
 .contacto__form__nombre{
     margin-bottom: 1rem;
 }
