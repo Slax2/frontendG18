@@ -48,11 +48,12 @@ a{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 3rem;
-    /* justify-content: center; */
+    justify-content: center;
 }
 .container__img img{
     min-width: 3rem;
-    margin-right: 10rem;
+    margin-right: 5%;
+    margin-bottom: 2rem;
 }
 article{
     padding-bottom: 2rem;
