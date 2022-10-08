@@ -10,6 +10,8 @@ a{
     background: #00AF1C;
     font-size: 1.5rem;
     width: 100%;
+    position: fixed;
+    z-index: 20;
 }
 .header__container__nav{
     display: flex;
@@ -30,6 +32,8 @@ a{
 }
 /* MAIN */
 .body__main{
+    position: relative;
+    top: 4rem;
     padding: 2rem;
 }
 
