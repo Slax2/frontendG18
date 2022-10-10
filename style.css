@@ -1,11 +1,224 @@
+:root{
+    --colorGeneral:#1D1D1D;
+    --colorTexto:#FFFFFF;
+    --padding-header:0.6rem;
+}
 *{
     margin: 0;
     padding: 0;
 }
 body{
+    background-color: var(--colorGeneral);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/* HEADER */
 .header{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    background-color:#181818;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    /* z-index: 2; */
+}
+.header__nav__ul{
+    display: flex;
+}
+.header__nav__li{
+    list-style: none;
+    padding: 1.5rem;
+}
+.header__nav__li:hover{
+    background-color: #212024;
+    border-radius: var(--padding-header);
+}
+
+.header__nav__li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--colorTexto);
+}
+/* SECTION SOBRE MI */
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 7rem 0;
+}
+.banner__container h1,.banner__container h2,.banner__container p{
+    margin-bottom: 2rem;
+}
+.banner__container button{
+    padding: 1rem;
+    background-color: #14253D;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: var(--colorTexto);
+    box-shadow: 0 0.4rem 0.5rem #000000;
+    border: none;
+}
+
+.banner__container button:hover{
+    background-color: #1969da;
+    padding: 1.05rem;
+    border-radius: 0.7rem;
+}
+/* PORTAFOLIO */
+.section__works{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.container__work{
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: 0.5px solid black;
+    background-color: #14253D;
+}
+
+.container__work:hover{
+    background-color: #14253D;
+    animation-name: portafolioAnimacion;
+    animation-duration:2s;
+    
+}
+
+@keyframes portafolioAnimacion {
+    0%{
+        opacity: 1;
+        filter: blur(2px);
+    }
+    50%{
+        opacity: 0.6;
+        filter: blur(1px);
+    }
+    100%{
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+
+.card{
+    margin-top: 1rem;
+}
+.card__container_img img{
+    border-radius: 1rem;
+    box-shadow: 0 0.4rem 0.5rem rgb(55, 57, 221);
+}
+.card__container__detalle{
+    margin: 1rem 0;
+}
+/* SKILL */
+.section__skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin:2rem 0; */
+}
+.container__skills{
+    margin-top: 3rem;
+    padding: 2rem 0;
+    width: 35%;
+}
+.progreso1{
+    background-color: #fff;
+    width: 100%;
+    height: 1rem;
+    border:1px solid black;
+    border-radius: 0.5rem;
+}
+.detalle__progreso1{
+    background-color: rgb(55, 57, 221);
+    width: 70%;
+    height: 1rem;
+    border-radius: 0.3rem;
+}
+.detalle__progreso1:hover{
+    animation-name: progresoSkill1;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+}
+.progreso2{
+    background-color: #fff;
+    width: 100%;
+    height: 1rem;
+    border:1px solid black;
+    border-radius: 0.5rem;
+}
+.detalle__progreso2{
+    background-color: rgb(55, 57, 221);
+    width: 30%;
+    height: 1rem;
+    border-radius: 0.3rem;
+}
+.detalle__progreso2:hover{
+    animation-name: progresoSkill2;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+}
+@keyframes progresoSkill2 {
+    0%{
+        width: 0%;
+        opacity: 0.5;
+    }
+    50%{
+        width: 30%;
+        opacity: 0.7;
+    }
+    100%{
+        width: 40%;
+        opacity: 1;
+    }
+}
+
+@keyframes progresoSkill1{
+    0%{
+        width: 0%;
+        opacity: 0.5;
+    }
+    50%{
+        width: 50%;
+        opacity: 0.7;
+    }
+    100%{
+        width: 80%;
+        opacity: 1;
+    }
+}
+/* FOOTER */
+.footer{
+    background-color: #212024;
+}
+.footer__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.footer__container_nav_ul{
+    display: flex;
+}
+
+.footer__container_nav_ul li{
+    list-style: none;
+    margin: 0 1rem;
+}
+.footer__container_nav_ul li:hover{
+    animation-name: socialAnimacion;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
+@keyframes socialAnimacion {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
 }
