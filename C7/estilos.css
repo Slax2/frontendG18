@@ -128,11 +128,11 @@ figure img{
     padding-bottom: 2rem;
 }
 .portafolio__container__img{
-    width: 40vw;
+    width: 40%;
     margin: auto;
 }
 .portafolio__container__img img{
-    padding: 1rem;
+    padding: 1%;
 }
 
 /* clientes */
