@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    margin: auto;
+}
+
+.header__container{
+    position: relative;
+}
+figure img{
+    display: block;
+    width: 100%;
+}
+.header__container h1{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    color: white;
+    
+    font-weight: 700;
+}
+
+.header__container h2{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    color: white;
+    padding: 1rem;
+    background-color: #7299FE50;
+
+}
+/* SOBRE MI  */
+.section__container{
+    padding: 2rem;
+    background-color: #7299FE;
+}
+.section__container h2{
+    color: #1D06A7;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.section__container p{
+    color: white;
+    padding-bottom: 1rem;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.section__container button{
+    padding: 1rem 2rem;
+    background-color:#D16FFF;
+    border-radius: 0.5rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* MIS SKILL */
+.section__skills__general{
+    padding-top: 2rem;
+    background-color: #9022FF;
+    text-align: center;
+    color:#26CC4B;
+}
+.section__skills{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.container__skills{
+    padding: 2rem 0;
+    width: 35%;
+    text-align: start;
+    color: white;
+}
+.container__skill{
+    padding-bottom: 1rem;
+}
+.container__skill h3{
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.progreso1{
+    background-color: #fff;
+    width: 100%;
+    height: 1rem;
+    border:1px solid black;
+    border-radius: 0.5rem;
+}
+.detalle__progreso1{
+    background-color: rgb(55, 57, 221);
+    width: 70%;
+    height: 1rem;
+    border-radius: 0.3rem;
+}
+.progreso2{
+    background-color: #fff;
+    width: 100%;
+    height: 1rem;
+    border:1px solid black;
+    border-radius: 0.5rem;
+}
+.detalle__progreso2{
+    background-color: rgb(55, 57, 221);
+    width: 30%;
+    height: 1rem;
+    border-radius: 0.3rem;
+}
+
+/* PORTAFOLIO */
+.section__portafolio{
+    padding: 2rem;
+    background-color:#FFD233;
+    text-align: center;
+    color: #00AD84;
+}
+.section__portafolio h2{
+    padding-bottom: 2rem;
+}
+.portafolio__container__img{
+    width: 60vw;
+    margin: auto;
+}
+.portafolio__container__img img{
+    padding: 1rem;
+}
+
+/* clientes */
