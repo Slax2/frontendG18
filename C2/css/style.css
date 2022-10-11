@@ -1,17 +1,21 @@
 .body{
     background-image: url('../practica/src/deadpool-wolverine.png');
     background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-position: center;
-    
-
+    height: 100vh;
 }
+.main{
+    padding: 4rem;
+    background-color: rgba(14, 17, 43, 0.5);
+    border-radius: 50%;
+}
+
 img{
-    border-radius: 30%;
+    border-radius: 50%;
 }
 
 
@@ -23,9 +27,34 @@ h1,h2,p{
 footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     list-style: none;
 }
 
 li{
     margin:0 1rem ;
+}
+@media(max-width:320px) {
+    .main{
+        padding: 1rem;
+        background-color: rgba(14, 17, 43, 0.7);
+    }
+    article h1{
+        font-size: 1.5rem;
+    }
+    article h2{
+        font-size: 1rem;
+    }
+    article p{
+        font-size: 0.7rem;
+    }
+    img{
+        width:45%;
+    }
+    footer a{
+        padding: 0.1rem;
+    }
+    li{
+        margin:0 0.5rem ;
+    }
 }
