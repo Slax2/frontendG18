@@ -165,3 +165,43 @@
     border-radius: 2rem;
     margin-top: 1.5rem;
 }
+
+
+/* MEDIA QUERY */
+
+@media (max-width:480px) {
+    .header{
+        background-image: url("./src/bg-hero-mobile.svg");
+        background-size: cover;
+        background-color: hsl(193, 100%, 96%);
+    }
+    .header__nav{
+        padding: 2rem 1rem;
+    }
+
+    .header__nav img{
+        width: 30%;
+    }
+
+    .header__nav button{
+        padding: 0.5rem 2rem;
+    }
+    .section__detalle{
+        display: block;
+    }
+    .container_detalle__description{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .container_detalle__img{
+        margin: 4rem auto;
+        width: 80%;
+        height: 50%;
+    }
+    .main{
+        padding-bottom: 5rem;
+    }
+
+
+}
