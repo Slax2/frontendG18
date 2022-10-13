@@ -54,6 +54,7 @@
     border-radius: 2rem;
     margin-top: 1.5rem;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .container_detalle__img{
@@ -172,6 +173,7 @@
     border-radius: 2rem;
     margin-top: 1.5rem;
     cursor: pointer;
+    font-weight: bold;
 }
 
 
