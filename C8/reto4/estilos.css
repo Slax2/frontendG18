@@ -23,6 +23,7 @@
     color: #00252E;
     font-weight: bold;
     box-shadow: 1px 1px 3px rgb(128, 127, 127);
+    cursor: pointer;
 }
 
 /* SECTION DETALLE */
@@ -52,6 +53,7 @@
     border: none;
     border-radius: 2rem;
     margin-top: 1.5rem;
+    cursor: pointer;
 }
 
 .container_detalle__img{
@@ -169,6 +171,7 @@
     border: none;
     border-radius: 2rem;
     margin-top: 1.5rem;
+    cursor: pointer;
 }
 
 
