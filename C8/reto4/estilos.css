@@ -151,7 +151,7 @@
     padding: 2rem 1rem;
     text-align: center;
     top:-7rem;
-    left: 20%;
+    left: 25%;
     width: 50%;
     color: hsl(192, 100%, 9%);
     box-shadow: 1px 1px 4px gray;
@@ -223,9 +223,9 @@
     }
     /* CARD */
     .card{
-        left: 2.5rem;
+        left: 15%;
         width: 70%;
-        padding: 3rem;
+        padding: 2rem;
     }
     .card h2{
         font-size: 2rem;
@@ -261,5 +261,42 @@
     }
     .foote3__container__text{
         margin-top: 2rem;
+    }
+}
+/* MEDIA 380PX */
+@media (max-width:380px) {
+    .main{
+        padding-bottom: 3rem;
+    }
+    .main__section{
+        width: 80%;
+        padding: 1rem;
+    }
+
+    .section__container__img{
+        width: 100%;
+    }
+
+    /* CARD */
+    .card{
+        left: 5%;
+        width: 90%;
+        padding: 2rem;
+    }
+    .card h2{
+        font-size: 1.5rem;
+    }
+    .card button{
+        padding: 1rem 1.5rem;
+        color: white;
+        background-color: hsl(322, 100%, 66%);
+        border: none;
+        border-radius: 2rem;
+        margin-top: 1.5rem;
+        font-weight: bold;
+    }
+    .footer{
+        margin-top: 10rem;
+        padding: 8rem 2rem;
     }
 }
