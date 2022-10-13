@@ -8,6 +8,7 @@
 .header{
     background-image: url("./src/bg-hero-desktop.svg");
     font-family: 'Poppins', sans-serif;
+    background-color: hsl(191, 89%, 96%);
 }
 .header__nav{
     display: flex;
