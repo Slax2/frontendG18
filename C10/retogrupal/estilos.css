@@ -128,10 +128,19 @@ main{
     color: #00CF95;
     font-weight: 700;
 }
-.section__sobremi p{
-    margin-left: 2rem;
-    width: 70%;
+.sobremi__parrafo{
+    display: flex;
 }
+.sobremi__parrafo div{
+    background-color: #80E7CA;
+    width: 1rem;
+    height: 6rem;
+    margin-right: 1.5rem;
+}
+.sobremi__parrafo p{
+
+}
+
 .section__sobremi button{
     font-weight: 700;
     padding: 1rem 3rem;
