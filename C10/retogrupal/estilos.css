@@ -6,13 +6,18 @@
 }
 /* HEADER */
 .header{
+    max-width: 960px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 
 }
-
+main{
+    max-width: 960px;
+    margin: auto;
+}
 .header__logo{
     position: relative;
     margin-left: 1rem;
@@ -87,7 +92,7 @@
 }
 .sobremi__nav__ul li{
     list-style: none;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 .sobremi__imagen{
     position: relative;
@@ -116,10 +121,12 @@
 .sobremi__info h1{
     font-size: 2rem;
     padding-bottom: 1rem;
+    font-weight: 700;
 }
 .section__sobremi span{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #00CF95;
+    font-weight: 700;
 }
 .section__sobremi p{
     margin-left: 2rem;
@@ -127,11 +134,11 @@
 }
 .section__sobremi button{
     font-weight: 700;
-    padding: 1rem 2.5rem;
+    padding: 1rem 3rem;
     background-color: #6D0AD3;
     color: white;
     border: none;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 
@@ -158,20 +165,18 @@
     /* justify-content: center;
     align-items: center; */
     flex-direction: column;
+    margin-top: 3rem;
 }
 .section__portafolio h2{
-    padding: 4rem;
+    padding: 1rem;
     color:#0098EF;
     font-weight: 600;
 }
 .container__portafolio{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    padding: 0 4rem;
     margin-top: 1rem;
 }
 .container__portafolio img{
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
