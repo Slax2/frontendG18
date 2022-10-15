@@ -180,3 +180,51 @@ main{
 .container__portafolio img{
     margin-left: 1rem;
 }
+
+/* SERVICIOS */
+.section__servicios{
+    margin-top: 5rem;
+}
+.section__servicios h2{
+    padding: 2rem;
+    color: #0098EF;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.container__servicios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.servicios{
+    display: flex;
+    flex-direction: row;
+    background-color: #00CF95;
+    width: 308px;
+    height: 218px;
+    /* border-radius: 1rem; */
+    border: 0.35rem #D1FFA2 solid;
+}
+.servicios figure{
+    width: 20%;
+}
+
+.servicios figure img{
+    padding: 1.2rem 0 0 1.2rem;
+}
+
+.servicios div{
+    width: 80%;
+    display:flex;
+    align-items: flex-end;
+    justify-content: end;
+    
+}
+.servicios div h3{
+    border-radius: 1rem 0 0 1rem;
+    padding: 1rem 4rem;
+    margin-bottom: 2rem;
+    background-color:#D1FFA2;
+
+}
