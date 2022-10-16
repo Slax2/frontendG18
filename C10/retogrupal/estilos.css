@@ -186,10 +186,50 @@ main{
     flex-wrap: wrap;
     margin-top: 1rem;
 }
-.container__portafolio img{
-    margin-left: 1rem;
+.container__portafolio figure{
+    position: relative;
+    width: 224px;
+    height: 220px;
+    color: white;
+}
+.portafolio__bloque{
+    position: absolute;
+    background: rgba(109, 10, 211, 0.8);
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.portafolio__bloque .top{
+    font-size: 0.8rem;
+}
+
+.portafolio__bloque .down{
+    color: black;
+    font-size: 1rem;
+}
+.down ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.down li{
+    font-size: 11px;
+    list-style: none;
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+    background-color: #D1FFA2;
+    margin-left: 0.3rem;
+}
+figure:hover div{
+    display: flex;
+}
 /* SERVICIOS */
 .section__servicios{
     margin-top: 5rem;
