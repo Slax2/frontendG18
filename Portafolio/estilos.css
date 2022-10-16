@@ -1,15 +1,24 @@
+:root{
+    --colorGeneral:hsl(217, 28%, 15%);
+    --colorTexto:hsl(0, 0%, 100%);
+}
+/* Fuentes
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .body{
-    background-color: hsl(217, 28%, 15%);
+    background-color: var(--colorGeneral);
 }
 .container__body{
     background-image: url("./src/bg-curvy-desktop.svg");
     background-repeat: no-repeat;
-    background-size: contain;
+    /* background-size: 100vw 100vh; */
     height: 100vh;
 }
 
@@ -18,19 +27,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 5rem;
+    max-width: 1024px;
+    margin: auto;
 }
 .header__nav__ul{
     display: flex;
 }
 .header__nav__ul li{
     list-style: none;
-    padding-left: 2rem;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 .header__nav__ul li a{
     text-decoration: none;
-    color: white;
+    color: var(--colorTexto);
+    padding: 2rem 0;
 }
 
 /* SOBRE MI */
@@ -40,10 +53,25 @@
     text-align: center;
 }
 .container_sobreMi{
+    color: var(--colorTexto);
     padding: 4rem;
     border: 1px solid blue;
 }
 .sobreMi__imagen img{
+    width: 40%;
     margin: 2rem 0;
     border-radius: 50%;
+}
+.sobreMi__titulo{
+    padding: 1rem;
+}
+.sobreMi__descripcion{
+    padding: 0 4rem;
+}
+.sobreMi__button{
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    background-color: hsl(198, 60%, 50%);
+    border: none;
+    border-radius: 2rem;
 }
