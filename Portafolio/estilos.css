@@ -203,12 +203,23 @@ font-family: 'Raleway', sans-serif; */
     display: flex;
 }
 .portafolio__detalle:hover i{
-    transform: scale(1.5)
+    animation-name:animarFlecha;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 .portafolio__detalle i{
     font-size: 3rem;
     color: var(--colorTexto);
-
+}
+@keyframes animarFlecha {
+    0%{
+        transform: translateY(0);
+        color: var(--colorTexto);
+    }
+    100%{
+        transform: translateY(2rem);
+        color: var(--colorAnimacionMenu);
+    }
 }
 /* SKILL */
 .section__skills {
