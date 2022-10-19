@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;;
+}
+.body{
+    background-color: rgb(245, 246, 250);
+    display: flex;
+    justify-content: center;
+}
+.main__container{
+    padding: 2rem 0;
+    width: 50rem;
+    /* background-color: red; */
+}
+
+.section__container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+div .section__container:nth-child(2),div .section__container:nth-child(3){
+    width: 90%;
+    margin-left: 10%;
+}
+/* CARD BUTTON */
+.card__button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: hsl(223, 19%, 93%);
+    border-radius: 5rem;
+}
+.card__button p{
+    color: hsl(238, 40%, 52%);
+    font-weight: 500;
+}
+.card__button img{
+    padding: 0.5rem 0;
+}
+/* CARD MODULO */
+.card__modulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2rem;
+}
+.card__title{
+    display: flex;
+    justify-content: space-between;
+}
+.card__title p{
+    color: hsl(223, 19%, 93%);
+}
+.card__title div{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.card__title button{
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0 0.5rem;
+    font-weight: 500;
+}
+
+.card__detalle{
+    margin-top: 1rem;
+}
+.reply{
+    display: flex;
+    justify-content: space-between;
+}
+.reply a{
+    text-decoration: none;
+    color: hsl(238, 40%, 52%);
+}
+.reply .delete{
+    color:hsl(358, 79%, 66%);
+}
+
+/* LINEA */
+.container__linea{
+    position: relative;
+}
+.linea{
+    position: absolute;
+    width: 0.1rem;
+    height: 100%;
+    left: 2rem;
+    background-color:hsl(212, 24%, 26%);
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.form textarea{
+    width: 70%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.form button{
+    width: 10%;
+    height: 2.5rem;
+    background-color: hsl(238, 40%, 52%);
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+}

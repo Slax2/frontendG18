@@ -1,0 +1,22 @@
+:root{
+    --primary-theme-color:rgb(144, 144, 150);
+    --secondary-theme-color:rgb(136, 11, 11);
+    --primery-text-color:#fff;
+    --primary-highlight-color:rgb(64, 168, 44);
+    --primary-font-family:'Arial';
+    --padding-section:1.5rem;
+    --padding-container:1rem;
+    --max-width-container:640px;
+    --letter-color-1:#00bef8;
+    --letter-color-2:#051b22;
+    --letter-color-3:#5b0966;
+    --letter-color-4:#0c6666;
+    --letter-color-5:#c4a20b;
+    --letter-color-6:#291233;
+}
+@media (min-width:760px){
+    :root{
+        --primary-theme-color:blue;
+        --secondary-theme-color:green;
+    }
+}

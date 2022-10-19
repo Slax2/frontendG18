@@ -358,3 +358,37 @@ font-family: 'Raleway', sans-serif; */
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
+@media (max-width:576px) {
+    
+    /* HEADER */
+    .header {
+        padding: 2rem;
+    }
+    .header__nav__ul li {
+        margin-left: 1rem;
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
+
+    .container__redes{
+        visibility: visible;
+    }
+
+    .redes__ul li{
+        margin: auto;
+        font-size: 1rem;
+    }
+
+    /* SOBRE MI */
+    .container_sobreMi {
+        padding: 2rem;
+    }
+    .sobreMi__imagen img {
+        width: 70%;
+        margin: 1rem 0;
+    }
+
+
+    
+}
