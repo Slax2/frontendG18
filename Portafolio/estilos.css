@@ -372,7 +372,7 @@ font-family: 'Raleway', sans-serif; */
     }
 
     .container__redes{
-        visibility: visible;
+        /* visibility: visible; */
     }
 
     .redes__ul li{
@@ -384,11 +384,32 @@ font-family: 'Raleway', sans-serif; */
     .container_sobreMi {
         padding: 2rem;
     }
+    .sobreMi__descripcion {
+        padding: 1rem 2rem;
+    }
+    .sobreMi__button {
+        width: 60%;
+        padding: 1rem 1rem;
+        border-radius: 2rem;
+        font-weight: 700;
+    }
     .sobreMi__imagen img {
         width: 70%;
         margin: 1rem 0;
     }
+    /* PORTAFOLIO */
+    .container__portafolio{
+        width: 80%;
+    }
+    /* SKILLS */
+    .container__skills {
+        width: 80%;
+    }
 
 
+    /* FOOTER */
+    .footer{
+        padding: 2rem;
+    }
     
 }
