@@ -397,4 +397,8 @@ hr {
     padding: 0.5rem;
 }
 
-.footer__segundo__detalle h4 {}
+.footer__segundo__detalle h4 {
+    margin-top: 3rem;
+    color: var(--bgTextWhite);
+    opacity: 0.4;
+}
