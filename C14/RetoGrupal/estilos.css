@@ -402,3 +402,38 @@ hr {
     color: var(--bgTextWhite);
     opacity: 0.4;
 }
+
+
+.logo__footer {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid var(--bgPrincipal);
+    background-color: #98C3E8;
+}
+
+.logo__footer_1 {
+    position: absolute;
+    right: -20px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: var(--bgPrincipal);
+
+}
+
+.logo__footer_1 p {
+    text-align: center;
+    color: var(--bgBlack);
+}
+
+.footer__logo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer__logo h2 {
+    margin-left: 3rem;
+}
