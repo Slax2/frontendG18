@@ -380,3 +380,21 @@ hr {
     margin: auto;
     padding: 4rem 0;
 }
+
+.footer__segundo__detalle ul {
+    list-style: none;
+}
+
+.footer__segundo__detalle {
+    color: var(--bgTextWhite);
+}
+
+.footer__segundo__detalle>* {
+    padding: 1rem;
+}
+
+.footer__segundo__detalle ul>* {
+    padding: 0.5rem;
+}
+
+.footer__segundo__detalle h4 {}
