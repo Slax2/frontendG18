@@ -334,12 +334,16 @@ hr {
 /* FOOTER */
 .footer {
     background-color: var(--bgLogo);
+
 }
 
 .footer__primero {
+    max-width: 960px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 5rem;
+    align-items: center;
+    padding: 2rem 0;
 }
 
 .text_footer_primero {
@@ -351,8 +355,13 @@ hr {
 }
 
 .text_footer_primero h2 {
-    padding-right: 5rem;
+    padding: 1rem 0;
     font-size: 2.5rem;
+    color: var(--bgTextWhite);
+    font-weight: 400;
+}
+
+.text_footer_primero span {
     font-weight: 400;
 }
 
@@ -362,4 +371,12 @@ hr {
     border: none;
     color: var(--bgTextWhite);
     background-color: var(--bgBtnFooter);
+}
+
+.footer__segundo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: auto;
+    padding: 4rem 0;
 }
