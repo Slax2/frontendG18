@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(165, 14, 14);
+}
+
+.cuadrado {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  border-radius: 0%;
+}
+
+.circulo {
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.cuadrado2 {
+  width: 500px;
+  height: 500px;
+  background-color: green;
+  border-radius: 0%;
+}
+
+.div-icon-telefono {
+  background: url("https://i.postimg.cc/WzG9XJD9/telefono.jpg");
+  width: 200px;
+  height: 200px;
+}
+
+.div-icon-phone {
+  background: url("https://i.postimg.cc/WzG9XJD9/telefono.jpg");
+  width: 200px;
+  height: 200px;
+}/*# sourceMappingURL=main.css.map */

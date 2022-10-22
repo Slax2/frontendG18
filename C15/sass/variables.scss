@@ -1,0 +1,27 @@
+$bgPrincipal: rgb(165, 14, 14);
+$bgSecundario: rgb(88, 88, 88);
+$bgBlanco: #fff;
+
+$padding-1: 1rem;
+$padding-2: 2rem;
+$padding-3: 3rem;
+$porcentaje30: 30%;
+$porcentaje40: 40%;
+$porcentaje50: 50%;
+$porcentaje80: 80%;
+$porcentaje100: 100%;
+
+@mixin prueba($porcentaje50: 0%, $bgSecundario: blue) {
+    width: 500px;
+    height: 500px;
+    background-color: $bgSecundario;
+    border-radius: $porcentaje50;
+}
+
+@mixin foto() {
+    .div-icon-telefono {
+        background: url("https://i.postimg.cc/WzG9XJD9/telefono.jpg");
+        width: 200px;
+        height: 200px;
+    }
+}

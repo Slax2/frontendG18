@@ -1,0 +1,38 @@
+@import './variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $bgPrincipal;
+}
+
+.cuadrado {
+    @include prueba($porcentaje50: 0%);
+}
+
+.circulo {
+    @include prueba($porcentaje50: 50%, $bgSecundario: gray);
+}
+
+.cuadrado2 {
+    @include prueba($porcentaje50: 0%, $bgSecundario: green);
+}
+
+@include foto();
+
+@mixin generate-icons($name, $size) {
+    .div-icon-#{$name} {
+        background: url("https://i.postimg.cc/WzG9XJD9/telefono.jpg");
+        width: #{$size};
+        height: #{$size};
+
+    }
+}
+
+
+
+
+@include generate-icons("phone", 200px)

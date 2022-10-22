@@ -1,0 +1,91 @@
+@import './variables.scss';
+
+/* MAIN */
+.main {
+    max-width: $medida960;
+    margin: auto;
+}
+
+.section__principal {
+    background: url('./src/banner.png');
+    background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+    width: $porcentaje100;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $bgPrincipal;
+    position: relative;
+    overflow: hidden;
+}
+
+.text__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../src/Vector.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: $porcentaje100;
+    height: $porcentaje100;
+}
+
+.text__principal h1 {
+    font-weight: 400;
+    font-size: $padding2;
+    padding: $padding1;
+}
+
+.text__principal p {
+    width: $porcentaje50;
+    padding: $padding2;
+    font-weight: 400;
+    font-size: $padding1;
+}
+
+.principal__circulo {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border: 8px solid $bgPrincipal;
+    border-radius: $porcentaje50;
+}
+
+@mixin circulo($clase, $name1, $size1, $name2, $size2) {
+    .#{$clase} {
+        #{$name1}: #{$size1};
+        #{$name2}: #{$size2};
+    }
+}
+
+@include circulo("circulo1", left, -1rem, top, 10rem);
+
+@include circulo("circulo2", bottom, -1.4rem, left, 15rem);
+
+@include circulo("circulo3", top, -1rem, left, 20rem);
+
+@include circulo("circulo4", bottom, 1rem, right, 30rem);
+
+@include circulo("circulo5", top, 2rem, right, 2rem);
+
+/* BUSCADO */
+.container__buscador {
+    margin-top: $padding2;
+    width: $porcentaje100;
+    position: relative;
+}
+
+.container__buscador input {
+    width: $porcentaje100;
+    padding: $padding1 $padding3;
+    background-color: $bgBuscador;
+    border: transparent;
+}
+
+.container__buscador i {
+    position: absolute;
+    top: $padding1;
+    left: $padding1;
+}

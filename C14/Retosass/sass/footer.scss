@@ -1,0 +1,108 @@
+@import './variables.scss';
+
+/* FOOTER */
+.footer {
+    background-color: $bgLogo;
+
+}
+
+.footer__primero {
+    max-width: $medida960;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $padding2 0;
+}
+
+.text_footer_primero {
+    width: $porcentaje40;
+}
+
+.btn_footer_primero {
+    width: $porcentaje30;
+}
+
+.text_footer_primero h2 {
+    padding: $padding1 0;
+    font-size: $padding2;
+    color: $bgTextWhite;
+    font-weight: 400;
+}
+
+.text_footer_primero span {
+    font-weight: 400;
+}
+
+.btn_footer_primero button {
+    padding: $padding1 $padding4;
+    margin: 0 auto;
+    border: none;
+    color: $bgTextWhite;
+    background-color: $bgBtnFooter;
+}
+
+.footer__segundo {
+    display: flex;
+    justify-content: space-between;
+    max-width: $medida960;
+    margin: auto;
+    padding: $padding4 0;
+}
+
+.footer__segundo__detalle ul {
+    list-style: none;
+}
+
+.footer__segundo__detalle {
+    color: $bgTextWhite;
+}
+
+.footer__segundo__detalle>* {
+    padding: $padding1;
+}
+
+.footer__segundo__detalle ul>* {
+    padding: $padding05;
+}
+
+.footer__segundo__detalle h4 {
+    margin-top: $padding3;
+    color: $bgTextWhite;
+    opacity: 0.4;
+}
+
+
+.logo__footer {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    border-radius: $porcentaje50;
+    border: 1px solid $bgPrincipal;
+    background-color: #98C3E8;
+}
+
+.logo__footer_1 {
+    position: absolute;
+    right: -20px;
+    width: 28px;
+    height: 28px;
+    border-radius: $porcentaje50;
+    background-color: $bgPrincipal;
+
+}
+
+.logo__footer_1 p {
+    text-align: center;
+    color: $bgBlack;
+}
+
+.footer__logo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer__logo h2 {
+    margin-left: $padding3;
+}

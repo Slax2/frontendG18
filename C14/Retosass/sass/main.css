@@ -1,0 +1,167 @@
+/* CONTAINER SECTION */
+.container__articulo {
+  margin: 3rem;
+}
+
+.primera__articulo {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.texto_primero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.texto_primero h2 {
+  font-size: 2rem;
+}
+
+.texto_primero h2,
+.texto_primero h4,
+.section__articles h2 {
+  font-weight: 700;
+  color: #1F3F68;
+}
+
+.texto_primero p {
+  line-height: 2rem;
+  color: #000000;
+}
+
+.primera__articulo__img {
+  width: 50%;
+}
+
+.texto__primero__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texto__primero__footer__detalle {
+  width: 40%;
+}
+
+.texto__primero__footer img {
+  margin-left: 1rem;
+}
+
+/* SEGUNDA PARTE ARTICULO */
+.segunda__articulo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card {
+  width: 30%;
+  height: 50%;
+}
+
+.card__img {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 1rem;
+}
+
+.footer__card {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texto__card h3,
+.footer__card__detalle h4 {
+  padding: 1rem 0;
+  font-weight: 700;
+  color: #1F3F68;
+}
+
+.footer__card img {
+  margin-left: 1rem;
+}
+
+.footer__card__detalle > * {
+  padding: 0.5rem 0;
+}
+
+.footer__detalle {
+  text-align: end;
+  padding: 0.5rem 0;
+}
+
+.container__articulo h3,
+.footer__detalle h3 {
+  color: #356EAD;
+}
+
+hr {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* articulos */
+.section__articles {
+  margin: 2rem 0;
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img__article {
+  width: 30%;
+}
+
+.article__detalle {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__article__detalle > * {
+  padding: 0.5rem 0;
+}
+
+.footer__article img {
+  margin-left: 1rem;
+}
+
+.article {
+  margin: 2rem 0;
+}
+
+.article__detalle h3,
+.footer__article h4 {
+  padding: 0.5rem 0;
+  font-weight: 700;
+  color: #1F3F68;
+}
+
+.flechas {
+  display: flex;
+  justify-content: space-between;
+  color: #356EAD;
+}
+
+.antetior > * {
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+.siguiente > * {
+  margin-left: 1rem;
+  font-size: 1rem;
+}/*# sourceMappingURL=main.css.map */

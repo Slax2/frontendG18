@@ -1,0 +1,55 @@
+@import './variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: $bgPrincipal ;
+}
+
+.header {
+    padding: $padding2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    border-radius: $porcentaje50;
+    background-color: $bgLogo;
+}
+
+.logo_1 {
+    position: absolute;
+    right: -20px;
+    width: 28px;
+    height: 28px;
+    border-radius: $porcentaje50;
+    border: 1px solid $bgLogo;
+}
+
+.logo_1 p {
+    text-align: center;
+}
+
+.header__ul {
+    display: flex;
+}
+
+.header__ul li {
+    margin-left: $padding2;
+    list-style: none;
+}
+
+.header__ul li a {
+    text-decoration: none;
+    color: $bgBlack;
+    font-weight: 700;
+    font-style: normal;
+}
