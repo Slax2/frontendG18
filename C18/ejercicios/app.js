@@ -277,9 +277,13 @@ function ej14_focos(focos) {
 }
 
 function ej15_verificarEdad(validarEdad) {
-    if (validarEdad >= 18) {
-        return "puedes votar"
+    if (isNaN(validarEdad)) {
+        return "ingresar datos validos"
     } else {
-        return "no puedes votar"
+        if (validarEdad >= 18) {
+            return "puedes votar"
+        } else {
+            return "no puedes votar"
+        }
     }
 }
