@@ -1,10 +1,11 @@
 //capturar elementos
 const btn = document.querySelector("#btn_login");
 const inputs = document.querySelectorAll("form input");
+const main = document.querySelector("main");
+
 
 //capturar localstorage
 const lStorage = localStorage.getItem("email");
-console.log("🚀 ~ file: login.js ~ line 7 ~ lStorage", lStorage)
 
 //funcion de boton
 btn.addEventListener("click", function (e) {
@@ -12,10 +13,9 @@ btn.addEventListener("click", function (e) {
     inputs.forEach(input => {
         if (input.value != "") {
             localStorage.setItem(input.name, input.value);
+            window.location.reload();
         } else {
-
             return console.log("error");
-
         }
     });
 
@@ -23,9 +23,22 @@ btn.addEventListener("click", function (e) {
 
 //SWEETALERT
 if (lStorage != null) {
-    Swal.fire(
-        'Bienvenido',
-        `${lStorage}`,
-        'success'
-    )
+    main.style.cssText = "display:none;";
+    Swal.fire({
+        title: '¡Acceso autorizado!',
+        text: `${lStorage}`,
+        showDenyButton: true,
+        confirmButtonText: 'Ok',
+        denyButtonText: `Cerrar Sesión`,
+    }).then((result) => {
+        /* Read more about isConfirmed, isDenied below */
+        if (result.isConfirmed) {
+            main.innerHTML = `<h1>Bienvenido: ${lStorage}</h1>
+            <a href="" onclick="${localStorage.clear()} ">Cerrar Sesión</a>`;
+            main.style.cssText = "display:block;";
+        } else if (result.isDenied) {
+            main.style.cssText = "display:block;";
+            localStorage.clear();
+        }
+    })
 }
