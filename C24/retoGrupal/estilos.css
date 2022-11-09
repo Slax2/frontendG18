@@ -1,0 +1,160 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --Dark-Gray: hsl(0, 0%, 55%);
+    --Very-Dark-Gray: hsl(0, 0%, 41%)
+        /* font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url('./src/desktop/image-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.ul__nav {
+    display: flex;
+}
+
+.ul__nav li {
+    margin-left: 1rem;
+    list-style: none;
+    color: var(--White);
+    font-family: 'Alata', sans-serif;
+}
+
+.container__header {
+    width: 1024px;
+}
+
+/* CONTENEDOR TEXTO HEADER */
+
+.conainter__header__text {
+    border: 0.1rem solid var(--White);
+    width: 50%;
+    padding: 2rem;
+    margin-top: 10rem;
+    color: var(--White);
+}
+
+.conainter__header__text h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+/* MAIN */
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.container__main {
+    width: 1024px;
+}
+
+.section__main {
+    /* background: red; */
+    position: relative;
+    height: 400px;
+}
+
+.section__main img {
+    background-size: cover;
+    width: 75%;
+    height: 100%;
+}
+
+.container__section {
+    position: absolute;
+    background-color: var(--White);
+    padding: 5rem 0 0 5rem;
+    width: 40%;
+    bottom: 0;
+    right: 0;
+}
+
+.container__section h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.container__section p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* MAIN IMGEN */
+
+.container__img {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 200px));
+    grid-gap: 1rem;
+    width: 100%;
+}
+
+.figure {
+    position: relative;
+}
+
+.figure img {}
+
+.figure h2 {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    color: var(--White);
+    font-weight: 300;
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--Black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.footer i {
+    color: var(--White);
+}
+
+.nav__footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    color: var(--White);
+}
+
+.nav__ul {
+    display: flex;
+}
+
+.nav__ul li {
+    margin-right: 1rem;
+    color: var(--White);
+    list-style: none;
+    width: 100%;
+}
